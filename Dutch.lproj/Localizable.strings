@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>GLAbortButton</key>
+	<string>⎋ Abort launch</string>
+	<key>GLAboutWinTitle</key>
+	<string>About GameLauncher</string>
+	<key>GLAdvertiseUrl</key>
+	<string>http://welcome.2sublime.com/software/gamelauncher/advertise/</string>
+	<key>GLAlertAppCrashBut1</key>
+	<string>Relaunch</string>
+	<key>GLAlertAppCrashBut2</key>
+	<string>Cancel</string>
+	<key>GLAlertAppCrashMsg</key>
+	<string>It appears the application "%@" ended unexpectedly (status %d). Would you like to relaunch the application?</string>
+	<key>GLAlertAppCrashTitle</key>
+	<string>Unexpected termination</string>
+	<key>GLAltWindowTitle1</key>
+	<string>- There was an old lady from Kalamazoo...</string>
+	<key>GLAltWindowTitle2</key>
+	<string>- Let's get this party started right</string>
+	<key>GLAltWindowTitle3</key>
+	<string>- Some people think that sheep...</string>
+	<key>GLAltWindowTitle4</key>
+	<string>- Friends don't let friends use Windows</string>
+	<key>GLAltWindowTitleNum</key>
+	<string>4</string>
+	<key>GLBuyProUrl</key>
+	<string>http://welcome.2sublime.com/software/gamelauncher-pro/</string>
+	<key>GLLaunchButton</key>
+	<string>Launch ➔</string>
+	<key>GLLicenseWinTitle</key>
+	<string>License GameLauncher</string>
+	<key>GLPrefsWinTitle</key>
+	<string>Preferences</string>
+	<key>GLShouldQuitBut1</key>
+	<string>Quit immediately</string>
+	<key>GLShouldQuitBut2</key>
+	<string>Abort launch, then Quit</string>
+	<key>GLShouldQuitBut3</key>
+	<string>Cancel</string>
+	<key>GLShouldQuitMsg</key>
+	<string>GameLauncher has been requested to Quit, but there are still some tasks running.\nWhat would you like to do?</string>
+	<key>GLShouldQuitTitle</key>
+	<string>Quit requested</string>
+	<key>GLSystemProcs</key>
+	<string>SystemUIServer, loginwindow, rcd, Dock, DashboardClient</string>
+</dict>
+</plist>

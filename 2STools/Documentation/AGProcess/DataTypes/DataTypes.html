@@ -1,0 +1,62 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/1998/REC-html40-19980424/loose.dtd">
+<html>
+<head>
+<title>Defined Types</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="generator" content="HeaderDoc">
+<style type="text/css"><!--a:link {text-decoration: none; font-family: lucida grande, geneva, helvetica, arial, sans-serif; font-size: small; color: #0000ff;}a:visited {text-decoration: none; font-family: lucida grande, geneva, helvetica, arial, sans-serif; font-size: small; color: #0000ff;}a:visited:hover {text-decoration: underline; font-family: lucida grande, geneva, helvetica, arial, sans-serif; font-size: small; color: #ff6600;}a:active {text-decoration: none; font-family: lucida grande, geneva, helvetica, arial, sans-serif; font-size: small; color: #ff6600;}a:hover {text-decoration: underline; font-family: lucida grande, geneva, helvetica, arial, sans-serif; font-size: small; color: #ff6600;}h4 {text-decoration: none; font-family: lucida grande, geneva, helvetica, arial, sans-serif; font-size: tiny; font-weight: bold;}body {text-decoration: none; font-family: lucida grande, geneva, helvetica, arial, sans-serif; font-size: 10pt;}--></style>
+</head>
+<body bgcolor="#ffffff">
+<h1><font face="Geneva,Arial,Helvtica">Defined Types</font></h1>
+<br><hr>
+<!-- headerDoc=tdef;  uid=//apple_ref/c/tdef/AGProcessState;  name=AGProcessState --><a name="//apple_ref/c/tdef/AGProcessState"></a><table border="0" cellpadding="2" cellspacing="2" width="300"><tr><td valign="top" height="12" colspan="5">
+<h3><a name="AGProcessState">AGProcessState</a></h3>
+</td></tr></table>
+<hr>
+<dl></dl>
+<b>See Also:</b><br><blockquote><dl>
+<dt>
+<!-- a logicalPath="//apple_ref/c/tag/AGProcessState" -->AGProcessState<!-- /a -->
+</dt>
+<dd></dd>
+</dl></blockquote>
+<blockquote><pre><font class="keyword">typedef</font> <font class="keyword">enum</font> <a logicalpath="//apple_ref/c/cl/_AGProcessState //apple_ref/c/cl/_AGProcessState //apple_ref/c/tdef/_AGProcessState //apple_ref/c/tag/_AGProcessState" target="_top" href="../../../Documentation/AGProcess/Enums/Enums.html#//apple_ref/c/tag/_AGProcessState"><font class="type">_AGProcessState</font></a> { 
+    <font class="var">AGProcessStateUnknown</font>, 
+    <font class="var">AGProcessStateRunnable</font>, 
+    <font class="var">AGProcessStateUninterruptible</font>, 
+    <font class="var">AGProcessStateSleeping</font>, 
+    <font class="var">AGProcessStateIdle</font>, 
+    <font class="var">AGProcessStateSuspended</font>, 
+    <font class="var">AGProcessStateZombie</font>, 
+    <font class="var">AGProcessStateExited</font> 
+} <font class="var">AGProcessState</font>; </pre></blockquote>
+<h5><font face="Lucida Grande,Helvetica,Arial">Constants</font></h5>
+<blockquote>
+<dl>
+<dt><a name="//apple_ref/c/econst/AGProcessStateUnknown"><code>AGProcessStateUnknown</code></a></dt>
+<dd>The state couldn't be determined.</dd>
+<dt><a name="//apple_ref/c/econst/AGProcessStateRunnable"><code>AGProcessStateRunnable</code></a></dt>
+<dd>The process is runnable.</dd>
+<dt><a name="//apple_ref/c/econst/AGProcessStateUninterruptible"><code>AGProcessStateUninterruptible</code></a></dt>
+<dd>The process is in disk or other uninterruptible wait.</dd>
+<dt><a name="//apple_ref/c/econst/AGProcessStateSleeping"><code>AGProcessStateSleeping</code></a></dt>
+<dd>The process has been sleeping for 20 seconds or less.</dd>
+<dt><a name="//apple_ref/c/econst/AGProcessStateIdle"><code>AGProcessStateIdle</code></a></dt>
+<dd>The process has been sleeping for more than 20 seconds.</dd>
+<dt><a name="//apple_ref/c/econst/AGProcessStateSuspended"><code>AGProcessStateSuspended</code></a></dt>
+<dd>The process is suspended.</dd>
+<dt><a name="//apple_ref/c/econst/AGProcessStateZombie"><code>AGProcessStateZombie</code></a></dt>
+<dd>The process has exited but the parent has not yet waited for it.</dd>
+<dt><a name="//apple_ref/c/econst/AGProcessStateExited"><code>AGProcessStateExited</code></a></dt>
+<dd>The process has exited.</dd>
+</dl>
+</blockquote>
+<dl>
+<h5><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<p>Possible return values for -[AGProcess state].
+</p>
+</dl>
+<p>(Last Updated June 05, 2005)
+</p>
+</body>
+</html>

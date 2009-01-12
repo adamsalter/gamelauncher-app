@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>GLAbortButton</key>
+	<string>âŽ‹ Abort launch</string>
+	<key>GLAboutWinTitle</key>
+	<string>†ber GameLauncher</string>
+	<key>GLAdvertiseUrl</key>
+	<string>http://welcome.2sublime.com/software/gamelauncher/advertise/</string>
+	<key>GLAlertAppCrashBut1</key>
+	<string>Neustart</string>
+	<key>GLAlertAppCrashBut2</key>
+	<string>Abbrechen</string>
+	<key>GLAlertAppCrashMsg</key>
+	<string>Es scheint, dass das Programm "%@" unerwartet beendet wurde (status %d). Mšchten Sie das Programm neustarten?</string>
+	<key>GLAlertAppCrashTitle</key>
+	<string>Unexpected termination</string>
+	<key>GLAltWindowTitle1</key>
+	<string>- Es gab ein mal eine alte Frau aus Kalamazoo...</string>
+	<key>GLAltWindowTitle2</key>
+	<string>- Lasst uns mit der party beginnen!</string>
+	<key>GLAltWindowTitle3</key>
+	<string>- Einige LŠuste denken, dass Scharfe...</string>
+	<key>GLAltWindowTitle4</key>
+	<string>- Freunde, lasst nicht zu dass Eure Freunde Windows benutzen!</string>
+	<key>GLAltWindowTitleNum</key>
+	<string>4</string>
+	<key>GLBuyProUrl</key>
+	<string>http://welcome.2sublime.com/software/gamelauncher-pro/</string>
+	<key>GLLaunchButton</key>
+	<string>Starte âž”</string>
+	<key>GLLicenseWinTitle</key>
+	<string>Lizens GameLauncher</string>
+	<key>GLPrefsWinTitle</key>
+	<string>Einstellungen</string>
+	<key>GLShouldQuitBut1</key>
+	<string>Sofort beenden</string>
+	<key>GLShouldQuitBut2</key>
+	<string>Start abbrechen und dann beenden</string>
+	<key>GLShouldQuitBut3</key>
+	<string>Abbrechen</string>
+	<key>GLShouldQuitMsg</key>
+	<string>GameLauncher mšchte beenden, aber es laufen noch einige Aufgaben.\nWas mšchten Sie tun?</string>
+	<key>GLShouldQuitTitle</key>
+	<string>Beendigung verlangt</string>
+	<key>GLSystemProcs</key>
+	<string>SystemUIServer, loginwindow, rcd, Dock, DashboardClient</string>
+</dict>
+</plist>

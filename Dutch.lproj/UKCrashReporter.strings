@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CRASH_REPORT_CGI_URL</key>
+	<string>http://downloads.2sublime.com/crashreportform.php</string>
+	<key>WANT_TO_SEND_CRASH</key>
+	<string>%@ has recently crashed.\n\nTo help improve it, you can send us the system's crash log, so we can use the information in it to fix the bug.\n\nDo you want to send the log?\n</string>
+	<key>WANT_TO_SEND_CRASH_DONT_SEND</key>
+	<string>Don't Send</string>
+	<key>WANT_TO_SEND_CRASH_SEND</key>
+	<string>Send</string>
+	<key>WANT_TO_SEND_CRASH_TITLE</key>
+	<string>Do you want to report the last crash?</string>
+</dict>
+</plist>

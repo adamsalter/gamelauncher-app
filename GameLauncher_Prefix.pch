@@ -1,0 +1,64 @@
+//
+// Prefix header for all source files of the 'GameLauncher' target in the 'GameLauncher' project
+//
+
+#if __OBJC__
+	#import <Cocoa/Cocoa.h>
+#endif
+
+//notification keys
+#define GLStartProcessTableTimerNotification		@"GLStartProcessTableTimer"
+#define GLStopProcessTableTimerNotification			@"GLStopProcessTableTimer"
+#define GLReloadProcessTableNotification			@"GLReloadProcessTable"
+#define GLStartProgressTimerNotification			@"GLStartProgressTimer"
+#define GLStopProgressTimerNotification				@"GLStopProgressTimer"
+#define GLHideSystemUINotification					@"GLHideSystemUI"
+#define GLRevertSystemUINotification				@"GLRevertSystemUI"
+#define GLBeginQuitAllNotification					@"GLBeginQuitAll"
+#define GLWillLaunchNotification							@"GLWillLaunch"
+#define GLBeginRelaunchAllNotification				@"GLBeginRelaunchAll"
+#define GLDidFinishLaunchingNotification			@"GLDidFinishLaunching"
+
+
+//localized string keys
+#define GLLocalizablePlist			@"Localizable"
+#define GLBuyProUrlKey					@"GLBuyProUrl"      
+#define GLAdvertiseUrlKey				@"GLAdvertiseUrl"   
+#define GLLaunchButton					@"GLLaunchButton"   
+#define GLAbortButton						@"GLAbortButton"    
+#define GLShouldQuitTitle				@"GLShouldQuitTitle"
+#define GLShouldQuitMsg					@"GLShouldQuitMsg"  
+#define GLShouldQuitBut1				@"GLShouldQuitBut1" 
+#define GLShouldQuitBut2				@"GLShouldQuitBut2" 
+#define GLShouldQuitBut3				@"GLShouldQuitBut3" 
+#define GLAlertAppCrashTitle		@"GLAlertAppCrashTitle"
+#define GLAlertAppCrashMsg			@"GLAlertAppCrashMsg"
+#define GLAlertAppCrashBut1			@"GLAlertAppCrashBut1"
+#define GLAlertAppCrashBut2			@"GLAlertAppCrashBut2"
+
+//Preferences
+#define GLAppFirstRunKey			@"GLAppFirstRun"
+#define GLLaunchesSinceLastAdKey	@"GLLaunchesSinceLastAd"
+#define GLQuitSuccessKey			@"GLQuitSuccess"
+#define GLProcessEnabledToggleKey	@"GLProcessEnabledToggle"
+#define GLSelectedApplicationsListKey @"GLSelectedApplicationsList"
+#define GLLaunchAppPathKey			@"GLLaunchAppPath"
+#define GLTableSortDescriptorsKey	@"GLTableSortDescriptors"
+#define GLSpeedKey					@"GLComputerSpeed"
+#define GLAlwaysOnTopKey			@"GLAlwaysOnTopDuringLaunch"
+#define GLMaxiWindowSizeKey			@"GLMaxiWindowSize"
+#define GLMiniWindowSizeKey			@"GLMaxWindowSize"
+#define GLMaxSpeed					20.0
+#define GLMinSpeed					1.0
+#define GLInitSpeed					8.0
+#define GLInitLaunchAppPath			@"/Applications/Chess.app"
+#define GLInitOnTopState			NSOnState
+
+//Other
+#define GLRandAdNum					150.0
+#define GLTableIconSize				14.0
+#define GLMaxRecentDocs				8.0
+#define GLMinNagTime				0*60
+#define GLMaxNagTime				0.25*60
+#define GLAdUrlText					@"http://ads.2sublime.com/GLAdpage.php"
+

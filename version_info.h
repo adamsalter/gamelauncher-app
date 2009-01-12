@@ -1,0 +1,5 @@
+#define MAJOR_VERSION "1"
+#define MINOR_VERSION "2"
+#define PATCH_VERSION ""
+#define BUILD_VERSION "41"
+#define SVN_VERSION "1"

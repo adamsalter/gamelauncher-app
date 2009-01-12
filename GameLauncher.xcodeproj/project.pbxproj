@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		660DCA0D09B8C2D900DDDEB5 /* GLQuestion.png in Resources */ = {isa = PBXBuildFile; fileRef = 660DCA0C09B8C2D900DDDEB5 /* GLQuestion.png */; };
+		660DCA4609BAA34B00DDDEB5 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 660DCA4509BAA34B00DDDEB5 /* ApplicationServices.framework */; };
+		664C39A309BDA32500CCAFE8 /* GLGUIController.m in Sources */ = {isa = PBXBuildFile; fileRef = 664EA869099B856E000C5B77 /* GLGUIController.m */; };
+		664EA874099B856E000C5B77 /* GLProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 664EA861099B856E000C5B77 /* GLProcess.m */; };
+		664EA875099B856E000C5B77 /* GLPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 664EA863099B856E000C5B77 /* GLPreferences.m */; };
+		664EA876099B856E000C5B77 /* GLNagController.m in Sources */ = {isa = PBXBuildFile; fileRef = 664EA865099B856E000C5B77 /* GLNagController.m */; };
+		664EA877099B856E000C5B77 /* GLLauncherController.m in Sources */ = {isa = PBXBuildFile; fileRef = 664EA866099B856E000C5B77 /* GLLauncherController.m */; };
+		664EA878099B856E000C5B77 /* GLImageView-Delegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 664EA867099B856E000C5B77 /* GLImageView-Delegate.m */; };
+		664EA87B099B856E000C5B77 /* AGProcess-GLProc.m in Sources */ = {isa = PBXBuildFile; fileRef = 664EA86F099B856E000C5B77 /* AGProcess-GLProc.m */; };
+		664EA898099B86A9000C5B77 /* About GameLauncher.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 664EA882099B86A9000C5B77 /* About GameLauncher.pdf */; };
+		664EA89A099B86A9000C5B77 /* Buy-Pro.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 664EA886099B86A9000C5B77 /* Buy-Pro.rtf */; };
+		664EA89B099B86A9000C5B77 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 664EA888099B86A9000C5B77 /* Credits.rtf */; };
+		664EA89C099B86A9000C5B77 /* GLLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 664EA88A099B86A9000C5B77 /* GLLogo.png */; };
+		664EA89D099B86A9000C5B77 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 664EA88C099B86A9000C5B77 /* Localizable.strings */; };
+		664EA8A1099B86A9000C5B77 /* NagWebView.nib in Resources */ = {isa = PBXBuildFile; fileRef = 664EA894099B86A9000C5B77 /* NagWebView.nib */; };
+		664EA96B099B967C000C5B77 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664EA96A099B967C000C5B77 /* WebKit.framework */; };
+		664EAA4B099BA7CF000C5B77 /* bt-add_p.png in Resources */ = {isa = PBXBuildFile; fileRef = 664EAA47099BA7CF000C5B77 /* bt-add_p.png */; };
+		664EAA4C099BA7CF000C5B77 /* bt-add.png in Resources */ = {isa = PBXBuildFile; fileRef = 664EAA48099BA7CF000C5B77 /* bt-add.png */; };
+		664EAA4D099BA7CF000C5B77 /* bt-remove_p.png in Resources */ = {isa = PBXBuildFile; fileRef = 664EAA49099BA7CF000C5B77 /* bt-remove_p.png */; };
+		664EAA4E099BA7CF000C5B77 /* bt-remove.png in Resources */ = {isa = PBXBuildFile; fileRef = 664EAA4A099BA7CF000C5B77 /* bt-remove.png */; };
+		666056F60F1B2A0400509677 /* 2STools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 666056F50F1B2A0400509677 /* 2STools.framework */; };
+		666056F90F1B2A0600509677 /* 2STools.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 666056F50F1B2A0400509677 /* 2STools.framework */; };
+		66906BE10A517E0600FCF137 /* UKCrashReporter.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66906BDF0A517E0600FCF137 /* UKCrashReporter.strings */; };
+		66AD658C099DF93900E99F8E /* no_internet.html in Resources */ = {isa = PBXBuildFile; fileRef = 66AD658B099DF93900E99F8E /* no_internet.html */; };
+		66AD658E099DF94900E99F8E /* error-page-icon.tif in Resources */ = {isa = PBXBuildFile; fileRef = 66AD658D099DF94900E99F8E /* error-page-icon.tif */; };
+		66B07CF809B3336C00C0F46D /* ApplicationIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 66B07CF709B3336C00C0F46D /* ApplicationIcon.icns */; };
+		66FDB1D809BF4298005BB293 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66FDB1D709BF4298005BB293 /* Carbon.framework */; };
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		66AD6EA209A1EBC100E99F8E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				666056F90F1B2A0600509677 /* 2STools.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* GameLauncher_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLauncher_Prefix.pch; sourceTree = "<group>"; };
+		660DCA0C09B8C2D900DDDEB5 /* GLQuestion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GLQuestion.png; path = "Various resources/GLQuestion.png"; sourceTree = "<group>"; };
+		660DCA4509BAA34B00DDDEB5 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
+		662DFFCC09A8818F00616AD7 /* GLProcessListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLProcessListController.h; sourceTree = "<group>"; };
+		662DFFCD09A8818F00616AD7 /* GLProcessListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLProcessListController.m; sourceTree = "<group>"; };
+		663B32400A63B1AB0063CE69 /* Dutch */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Dutch; path = Dutch.lproj/UKCrashReporter.strings; sourceTree = "<group>"; };
+		664EA861099B856E000C5B77 /* GLProcess.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = GLProcess.m; sourceTree = "<group>"; };
+		664EA862099B856E000C5B77 /* GLProcess.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = GLProcess.h; sourceTree = "<group>"; };
+		664EA863099B856E000C5B77 /* GLPreferences.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = GLPreferences.m; sourceTree = "<group>"; };
+		664EA864099B856E000C5B77 /* GLPreferences.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = GLPreferences.h; sourceTree = "<group>"; };
+		664EA865099B856E000C5B77 /* GLNagController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = GLNagController.m; sourceTree = "<group>"; };
+		664EA866099B856E000C5B77 /* GLLauncherController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = GLLauncherController.m; sourceTree = "<group>"; };
+		664EA867099B856E000C5B77 /* GLImageView-Delegate.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = "GLImageView-Delegate.m"; sourceTree = "<group>"; };
+		664EA868099B856E000C5B77 /* GLImageView-Delegate.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "GLImageView-Delegate.h"; sourceTree = "<group>"; };
+		664EA869099B856E000C5B77 /* GLGUIController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = GLGUIController.m; sourceTree = "<group>"; };
+		664EA86A099B856E000C5B77 /* GLGUIController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = GLGUIController.h; sourceTree = "<group>"; };
+		664EA86B099B856E000C5B77 /* GLNagController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = GLNagController.h; sourceTree = "<group>"; };
+		664EA86D099B856E000C5B77 /* CPS.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CPS.h; sourceTree = "<group>"; };
+		664EA86E099B856E000C5B77 /* appswitch_main.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = appswitch_main.h; sourceTree = "<group>"; };
+		664EA86F099B856E000C5B77 /* AGProcess-GLProc.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = "AGProcess-GLProc.m"; sourceTree = "<group>"; };
+		664EA870099B856E000C5B77 /* AGProcess-GLProc.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "AGProcess-GLProc.h"; sourceTree = "<group>"; };
+		664EA873099B856E000C5B77 /* GLLauncherController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = GLLauncherController.h; sourceTree = "<group>"; };
+		664EA883099B86A9000C5B77 /* English */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = English; path = "English.lproj/About GameLauncher.pdf"; sourceTree = "<group>"; };
+		664EA887099B86A9000C5B77 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = "English.lproj/Buy-Pro.rtf"; sourceTree = "<group>"; };
+		664EA889099B86A9000C5B77 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
+		664EA88B099B86A9000C5B77 /* English */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = English; path = English.lproj/GLLogo.png; sourceTree = "<group>"; };
+		664EA88D099B86A9000C5B77 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		664EA895099B86A9000C5B77 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/NagWebView.nib; sourceTree = "<group>"; };
+		664EA96A099B967C000C5B77 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
+		664EAA3F099BA757000C5B77 /* English */ = {isa = PBXFileReference; lastKnownFileType = file; name = English; path = "English.lproj/About GameLauncher.sxw"; sourceTree = "<group>"; };
+		664EAA47099BA7CF000C5B77 /* bt-add_p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bt-add_p.png"; path = "Various resources/bt-add_p.png"; sourceTree = "<group>"; };
+		664EAA48099BA7CF000C5B77 /* bt-add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bt-add.png"; path = "Various resources/bt-add.png"; sourceTree = "<group>"; };
+		664EAA49099BA7CF000C5B77 /* bt-remove_p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bt-remove_p.png"; path = "Various resources/bt-remove_p.png"; sourceTree = "<group>"; };
+		664EAA4A099BA7CF000C5B77 /* bt-remove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bt-remove.png"; path = "Various resources/bt-remove.png"; sourceTree = "<group>"; };
+		666056F50F1B2A0400509677 /* 2STools.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = 2STools.framework; path = 2STools/build/Release/2STools.framework; sourceTree = "<group>"; };
+		66906BE00A517E0600FCF137 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/UKCrashReporter.strings; sourceTree = "<group>"; };
+		66AD657B099DF83B00E99F8E /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = English; path = English.lproj/no_internet.html; sourceTree = "<group>"; };
+		66AD658D099DF94900E99F8E /* error-page-icon.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "error-page-icon.tif"; path = "Various resources/error-page-icon.tif"; sourceTree = "<group>"; };
+		66AD6681099FAF5E00E99F8E /* version.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = version.plist; sourceTree = "<group>"; };
+		66B07CF709B3336C00C0F46D /* ApplicationIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ApplicationIcon.icns; sourceTree = "<group>"; };
+		66FDB1D709BF4298005BB293 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* GameLauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameLauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				664EA96B099B967C000C5B77 /* WebKit.framework in Frameworks */,
+				660DCA4609BAA34B00DDDEB5 /* ApplicationServices.framework in Frameworks */,
+				66FDB1D809BF4298005BB293 /* Carbon.framework in Frameworks */,
+				666056F60F1B2A0400509677 /* 2STools.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* GameLauncher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* GameLauncher */ = {
+			isa = PBXGroup;
+			children = (
+				663C116D099BDDC10036C25F /* GUI */,
+				662DFFB509A87F8300616AD7 /* Launcher */,
+				662DFFB409A87F0F00616AD7 /* Processes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = GameLauncher;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				664EA86E099B856E000C5B77 /* appswitch_main.h */,
+				32CA4F630368D1EE00C91783 /* GameLauncher_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				664EAA3D099BA6F0000C5B77 /* plists */,
+				664EAA37099BA6BE000C5B77 /* docs */,
+				664EAA33099BA671000C5B77 /* images */,
+				664EAA3A099BA6E2000C5B77 /* nibs */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				666056F50F1B2A0400509677 /* 2STools.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				660DCA4509BAA34B00DDDEB5 /* ApplicationServices.framework */,
+				66FDB1D709BF4298005BB293 /* Carbon.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				664EA96A099B967C000C5B77 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		662DFFB409A87F0F00616AD7 /* Processes */ = {
+			isa = PBXGroup;
+			children = (
+				662DFFCC09A8818F00616AD7 /* GLProcessListController.h */,
+				662DFFCD09A8818F00616AD7 /* GLProcessListController.m */,
+				664EA86D099B856E000C5B77 /* CPS.h */,
+				664EA870099B856E000C5B77 /* AGProcess-GLProc.h */,
+				664EA86F099B856E000C5B77 /* AGProcess-GLProc.m */,
+				664EA862099B856E000C5B77 /* GLProcess.h */,
+				664EA861099B856E000C5B77 /* GLProcess.m */,
+			);
+			name = Processes;
+			sourceTree = "<group>";
+		};
+		662DFFB509A87F8300616AD7 /* Launcher */ = {
+			isa = PBXGroup;
+			children = (
+				664EA873099B856E000C5B77 /* GLLauncherController.h */,
+				664EA866099B856E000C5B77 /* GLLauncherController.m */,
+			);
+			name = Launcher;
+			sourceTree = "<group>";
+		};
+		663C116D099BDDC10036C25F /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				664EA86A099B856E000C5B77 /* GLGUIController.h */,
+				664EA869099B856E000C5B77 /* GLGUIController.m */,
+				664EA868099B856E000C5B77 /* GLImageView-Delegate.h */,
+				664EA867099B856E000C5B77 /* GLImageView-Delegate.m */,
+				664EA86B099B856E000C5B77 /* GLNagController.h */,
+				664EA865099B856E000C5B77 /* GLNagController.m */,
+				664EA864099B856E000C5B77 /* GLPreferences.h */,
+				664EA863099B856E000C5B77 /* GLPreferences.m */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		664EAA33099BA671000C5B77 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				66AD658D099DF94900E99F8E /* error-page-icon.tif */,
+				664EAA47099BA7CF000C5B77 /* bt-add_p.png */,
+				664EAA48099BA7CF000C5B77 /* bt-add.png */,
+				664EAA49099BA7CF000C5B77 /* bt-remove_p.png */,
+				664EAA4A099BA7CF000C5B77 /* bt-remove.png */,
+				66B07CF709B3336C00C0F46D /* ApplicationIcon.icns */,
+				660DCA0C09B8C2D900DDDEB5 /* GLQuestion.png */,
+				664EA88A099B86A9000C5B77 /* GLLogo.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		664EAA37099BA6BE000C5B77 /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				664EA882099B86A9000C5B77 /* About GameLauncher.pdf */,
+				664EAA3E099BA757000C5B77 /* About GameLauncher.sxw */,
+				664EA886099B86A9000C5B77 /* Buy-Pro.rtf */,
+				664EA888099B86A9000C5B77 /* Credits.rtf */,
+				66AD658B099DF93900E99F8E /* no_internet.html */,
+			);
+			name = docs;
+			sourceTree = "<group>";
+		};
+		664EAA3A099BA6E2000C5B77 /* nibs */ = {
+			isa = PBXGroup;
+			children = (
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				664EA894099B86A9000C5B77 /* NagWebView.nib */,
+			);
+			name = nibs;
+			sourceTree = "<group>";
+		};
+		664EAA3D099BA6F0000C5B77 /* plists */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				664EA88C099B86A9000C5B77 /* Localizable.strings */,
+				66AD6681099FAF5E00E99F8E /* version.plist */,
+				66906BDF0A517E0600FCF137 /* UKCrashReporter.strings */,
+			);
+			name = plists;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* GameLauncher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "GameLauncher" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				66AD6EA209A1EBC100E99F8E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GameLauncher;
+			productInstallPath = "$(HOME)/Applications";
+			productName = GameLauncher;
+			productReference = 8D1107320486CEB800E47090 /* GameLauncher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "GameLauncher" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				Dutch,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* GameLauncher */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* GameLauncher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				664EA898099B86A9000C5B77 /* About GameLauncher.pdf in Resources */,
+				664EA89A099B86A9000C5B77 /* Buy-Pro.rtf in Resources */,
+				664EA89B099B86A9000C5B77 /* Credits.rtf in Resources */,
+				664EA89C099B86A9000C5B77 /* GLLogo.png in Resources */,
+				664EA89D099B86A9000C5B77 /* Localizable.strings in Resources */,
+				664EA8A1099B86A9000C5B77 /* NagWebView.nib in Resources */,
+				664EAA4B099BA7CF000C5B77 /* bt-add_p.png in Resources */,
+				664EAA4C099BA7CF000C5B77 /* bt-add.png in Resources */,
+				664EAA4D099BA7CF000C5B77 /* bt-remove_p.png in Resources */,
+				664EAA4E099BA7CF000C5B77 /* bt-remove.png in Resources */,
+				66AD658C099DF93900E99F8E /* no_internet.html in Resources */,
+				66AD658E099DF94900E99F8E /* error-page-icon.tif in Resources */,
+				66B07CF809B3336C00C0F46D /* ApplicationIcon.icns in Resources */,
+				660DCA0D09B8C2D900DDDEB5 /* GLQuestion.png in Resources */,
+				66906BE10A517E0600FCF137 /* UKCrashReporter.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				664EA874099B856E000C5B77 /* GLProcess.m in Sources */,
+				664EA875099B856E000C5B77 /* GLPreferences.m in Sources */,
+				664EA876099B856E000C5B77 /* GLNagController.m in Sources */,
+				664EA877099B856E000C5B77 /* GLLauncherController.m in Sources */,
+				664EA878099B856E000C5B77 /* GLImageView-Delegate.m in Sources */,
+				664EA87B099B856E000C5B77 /* AGProcess-GLProc.m in Sources */,
+				664C39A309BDA32500CCAFE8 /* GLGUIController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		664EA882099B86A9000C5B77 /* About GameLauncher.pdf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				664EA883099B86A9000C5B77 /* English */,
+			);
+			name = "About GameLauncher.pdf";
+			sourceTree = "<group>";
+		};
+		664EA886099B86A9000C5B77 /* Buy-Pro.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				664EA887099B86A9000C5B77 /* English */,
+			);
+			name = "Buy-Pro.rtf";
+			sourceTree = "<group>";
+		};
+		664EA888099B86A9000C5B77 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				664EA889099B86A9000C5B77 /* English */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		664EA88A099B86A9000C5B77 /* GLLogo.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				664EA88B099B86A9000C5B77 /* English */,
+			);
+			name = GLLogo.png;
+			sourceTree = "<group>";
+		};
+		664EA88C099B86A9000C5B77 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				664EA88D099B86A9000C5B77 /* English */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		664EA894099B86A9000C5B77 /* NagWebView.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				664EA895099B86A9000C5B77 /* English */,
+			);
+			name = NagWebView.nib;
+			sourceTree = "<group>";
+		};
+		664EAA3E099BA757000C5B77 /* About GameLauncher.sxw */ = {
+			isa = PBXVariantGroup;
+			children = (
+				664EAA3F099BA757000C5B77 /* English */,
+			);
+			name = "About GameLauncher.sxw";
+			sourceTree = "<group>";
+		};
+		66906BDF0A517E0600FCF137 /* UKCrashReporter.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66906BE00A517E0600FCF137 /* English */,
+				663B32400A63B1AB0063CE69 /* Dutch */,
+			);
+			name = UKCrashReporter.strings;
+			sourceTree = "<group>";
+		};
+		66AD658B099DF93900E99F8E /* no_internet.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66AD657B099DF83B00E99F8E /* English */,
+			);
+			name = no_internet.html;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(FRAMEWORK_SEARCH_PATHS)",
+					"$(SRCROOT)/2STools/build/Deployment",
+					"\"$(SRCROOT)/2STools/build/Release\"",
+				);
+				GCC_PREFIX_HEADER = GameLauncher_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = GameLauncher;
+				SDKROOT_ppc = /Developer/SDKs/MacOSX10.4u.sdk;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Development;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(FRAMEWORK_SEARCH_PATHS)",
+					"$(SRCROOT)/2STools/build/Deployment",
+					"\"$(SRCROOT)/2STools/build/Release\"",
+				);
+				GCC_PREFIX_HEADER = GameLauncher_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = GameLauncher;
+				SDKROOT_ppc = /Developer/SDKs/MacOSX10.4u.sdk;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					__DEBUG__,
+					"$(GCC_PREPROCESSOR_DEFINITIONS)",
+				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.3;
+				OTHER_LDFLAGS_ppc = "-prebind";
+				PREBINDING = NO;
+				SDKROOT_i386 = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT_ppc = /Developer/SDKs/MacOSX10.3.9.sdk;
+				STRIP_INSTALLED_PRODUCT = NO;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wno-trigraphs",
+				);
+			};
+			name = Development;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				INFOPLIST_FILE = Info.plist;
+				OTHER_LDFLAGS_ppc = "-prebind";
+				PREBINDING = NO;
+				SDKROOT_i386 = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT_ppc = /Developer/SDKs/MacOSX10.3.9.sdk;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wno-trigraphs",
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "GameLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Development */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "GameLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Development */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/1998/REC-html40-19980424/loose.dtd">
+<html>
+<head>
+<title>AGProcess.h</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="generator" content="HeaderDoc">
+<style type="text/css"><!--a:link {text-decoration: none; font-family: lucida grande, geneva, helvetica, arial, sans-serif; font-size: small; color: #0000ff;}a:visited {text-decoration: none; font-family: lucida grande, geneva, helvetica, arial, sans-serif; font-size: small; color: #0000ff;}a:visited:hover {text-decoration: underline; font-family: lucida grande, geneva, helvetica, arial, sans-serif; font-size: small; color: #ff6600;}a:active {text-decoration: none; font-family: lucida grande, geneva, helvetica, arial, sans-serif; font-size: small; color: #ff6600;}a:hover {text-decoration: underline; font-family: lucida grande, geneva, helvetica, arial, sans-serif; font-size: small; color: #ff6600;}h4 {text-decoration: none; font-family: lucida grande, geneva, helvetica, arial, sans-serif; font-size: tiny; font-weight: bold;}body {text-decoration: none; font-family: lucida grande, geneva, helvetica, arial, sans-serif; font-size: 10pt;}--></style>
+</head>
+<body bgcolor="#ffffff">
+<h1><font face="Geneva,Arial,Helvtica">AGProcess.h</font></h1>
+<br><a name="//apple_ref/doc/header/AGProcess.h" title="AGProcess.h"></a><hr>
+<br><h2>Classes</h2>
+<dl>
+<dt><tt><a href="Classes/AGProcess/CompositePage.html#//apple_ref/doc/class/AGProcess" target="_top">AGProcess</a></tt></dt>
+<dd> A class for reporting Unix process statistics.
+</dd>
+</dl>
+<h2>Categories</h2>
+<dl>
+<dt><tt><a href="Categories/AGProcess_MachTaskEvents_/CompositePage.html#//apple_ref/doc/class/AGProcess(MachTaskEvents)" target="_top">AGProcess(MachTaskEvents)</a></tt></dt>
+<dd> Extends AGProcess to get information about Mach task events.
+</dd>
+<dt><tt><a href="Categories/AGProcess_Signals_/CompositePage.html#//apple_ref/doc/class/AGProcess(Signals)" target="_top">AGProcess(Signals)</a></tt></dt>
+<dd> Extends AGProcess to send UNIX signals.
+</dd>
+</dl>
+<hr>
+<br><h2>Typedefs</h2>
+<hr>
+<!-- headerDoc=tdef;  uid=//apple_ref/doc/compositePage/c/tdef/AGProcessState;  name=AGProcessState --><a name="//apple_ref/doc/compositePage/c/tdef/AGProcessState"></a><table border="0" cellpadding="2" cellspacing="2" width="300"><tr><td valign="top" height="12" colspan="5">
+<h3><a name="AGProcessState">AGProcessState</a></h3>
+</td></tr></table>
+<hr>
+<dl></dl>
+<b>See Also:</b><br><blockquote><dl>
+<dt>
+<!-- a logicalPath="//apple_ref/c/tag/AGProcessState" -->AGProcessState<!-- /a -->
+</dt>
+<dd></dd>
+</dl></blockquote>
+<blockquote><pre><font class="keyword">typedef</font> <font class="keyword">enum</font> <a logicalpath="//apple_ref/c/cl/_AGProcessState //apple_ref/c/cl/_AGProcessState //apple_ref/c/tdef/_AGProcessState //apple_ref/c/tag/_AGProcessState" target="_top" href="../../Documentation/AGProcess/Enums/Enums.html#//apple_ref/c/tag/_AGProcessState"><font class="type">_AGProcessState</font></a> { 
+    <font class="var">AGProcessStateUnknown</font>, 
+    <font class="var">AGProcessStateRunnable</font>, 
+    <font class="var">AGProcessStateUninterruptible</font>, 
+    <font class="var">AGProcessStateSleeping</font>, 
+    <font class="var">AGProcessStateIdle</font>, 
+    <font class="var">AGProcessStateSuspended</font>, 
+    <font class="var">AGProcessStateZombie</font>, 
+    <font class="var">AGProcessStateExited</font> 
+} <font class="var">AGProcessState</font>; </pre></blockquote>
+<h5><font face="Lucida Grande,Helvetica,Arial">Constants</font></h5>
+<blockquote>
+<dl>
+<dt><code>AGProcessStateUnknown</code></dt>
+<dd>The state couldn't be determined.</dd>
+<dt><code>AGProcessStateRunnable</code></dt>
+<dd>The process is runnable.</dd>
+<dt><code>AGProcessStateUninterruptible</code></dt>
+<dd>The process is in disk or other uninterruptible wait.</dd>
+<dt><code>AGProcessStateSleeping</code></dt>
+<dd>The process has been sleeping for 20 seconds or less.</dd>
+<dt><code>AGProcessStateIdle</code></dt>
+<dd>The process has been sleeping for more than 20 seconds.</dd>
+<dt><code>AGProcessStateSuspended</code></dt>
+<dd>The process is suspended.</dd>
+<dt><code>AGProcessStateZombie</code></dt>
+<dd>The process has exited but the parent has not yet waited for it.</dd>
+<dt><code>AGProcessStateExited</code></dt>
+<dd>The process has exited.</dd>
+</dl>
+</blockquote>
+<dl>
+<h5><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<p>Possible return values for -[AGProcess state].
+</p>
+</dl>
+<h2>Enumerations</h2>
+<hr>
+<!-- headerDoc=tag;  uid=//apple_ref/doc/compositePage/c/tag/_AGProcessState;  name=_AGProcessState --><a name="//apple_ref/doc/compositePage/c/tag/_AGProcessState"></a><table border="0" cellpadding="2" cellspacing="2" width="300"><tr><td valign="top" height="12" colspan="5">
+<h3><a name="_AGProcessState">_AGProcessState</a></h3>
+</td></tr></table>
+<hr>
+<dl></dl>
+<b>See Also:</b><br><blockquote><dl>
+<dt>
+<!-- a logicalPath="//apple_ref/c/tag/AGProcessState" -->AGProcessState<!-- /a -->
+</dt>
+<dd></dd>
+</dl></blockquote>
+<blockquote><pre><font class="keyword">typedef</font> <font class="keyword">enum</font> <a logicalpath="//apple_ref/c/cl/_AGProcessState //apple_ref/c/cl/_AGProcessState //apple_ref/c/tdef/_AGProcessState //apple_ref/c/tag/_AGProcessState" target="_top" href="../../Documentation/AGProcess/Enums/Enums.html#//apple_ref/c/tag/_AGProcessState"><font class="type">_AGProcessState</font></a> { 
+    <font class="var">AGProcessStateUnknown</font>, 
+    <font class="var">AGProcessStateRunnable</font>, 
+    <font class="var">AGProcessStateUninterruptible</font>, 
+    <font class="var">AGProcessStateSleeping</font>, 
+    <font class="var">AGProcessStateIdle</font>, 
+    <font class="var">AGProcessStateSuspended</font>, 
+    <font class="var">AGProcessStateZombie</font>, 
+    <font class="var">AGProcessStateExited</font> 
+} <font class="var">AGProcessState</font>; </pre></blockquote>
+<h5><font face="Lucida Grande,Helvetica,Arial">Constants</font></h5>
+<blockquote>
+<dl>
+<dt><code>AGProcessStateUnknown</code></dt>
+<dd>The state couldn't be determined.</dd>
+<dt><code>AGProcessStateRunnable</code></dt>
+<dd>The process is runnable.</dd>
+<dt><code>AGProcessStateUninterruptible</code></dt>
+<dd>The process is in disk or other uninterruptible wait.</dd>
+<dt><code>AGProcessStateSleeping</code></dt>
+<dd>The process has been sleeping for 20 seconds or less.</dd>
+<dt><code>AGProcessStateIdle</code></dt>
+<dd>The process has been sleeping for more than 20 seconds.</dd>
+<dt><code>AGProcessStateSuspended</code></dt>
+<dd>The process is suspended.</dd>
+<dt><code>AGProcessStateZombie</code></dt>
+<dd>The process has exited but the parent has not yet waited for it.</dd>
+<dt><code>AGProcessStateExited</code></dt>
+<dd>The process has exited.</dd>
+</dl>
+</blockquote>
+<dl>
+<h5><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<p>Possible return values for -[AGProcess state].
+</p>
+</dl>
+<hr>
+<!-- headerDoc=tag;  uid=//apple_ref/doc/compositePage/c/tag/AGProcessValue;  name=AGProcessValue --><a name="//apple_ref/doc/compositePage/c/tag/AGProcessValue"></a><table border="0" cellpadding="2" cellspacing="2" width="300"><tr><td valign="top" height="12" colspan="5">
+<h3><a name="AGProcessValue">AGProcessValue</a></h3>
+</td></tr></table>
+<hr>
+<dl></dl>
+<blockquote><pre><font class="keyword">enum</font> { 
+    <a logicalpath="//apple_ref/c/cl/AGProcessValueUnknown //apple_ref/c/cl/AGProcessValueUnknown //apple_ref/c/tdef/AGProcessValueUnknown //apple_ref/c/tag/AGProcessValueUnknown //apple_ref/c/econst/AGProcessValueUnknown" target="_top" href="../../Documentation/AGProcess/Enums/Enums.html#//apple_ref/c/econst/AGProcessValueUnknown"><font class="type">AGProcessValueUnknown</font></a> = <font class="number">0xffffffff</font> 
+}; </pre></blockquote>
+<h5><font face="Lucida Grande,Helvetica,Arial">Constants</font></h5>
+<blockquote>
+<dl>
+<dt><code>AGProcessValueUnknown</code></dt>
+<dd>Indicates that the value of a statistic couldn't be determined.</dd>
+</dl>
+</blockquote>
+<dl></dl>
+<p>(Last Updated June 05, 2005)
+</p>
+</body>
+</html>

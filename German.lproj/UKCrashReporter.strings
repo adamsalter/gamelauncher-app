@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CRASH_REPORT_CGI_URL</key>
+	<string>http://downloads.2sublime.com/crashreportform.php</string>
+	<key>WANT_TO_SEND_CRASH</key>
+	<string>%@ wurde unerwartet beendet.\n\nUm uns zu helfen kšnnen Sie ein crash log an uns schicken, so so kšnnen wir die Informationen benutzen um den Fehler zu beheben.\n\nMšchten sie das log verschicken?\n</string>
+	<key>WANT_TO_SEND_CRASH_DONT_SEND</key>
+	<string>Nein.</string>
+	<key>WANT_TO_SEND_CRASH_SEND</key>
+	<string>Ja.</string>
+	<key>WANT_TO_SEND_CRASH_TITLE</key>
+	<string>Mšchten sie den letzten crash berichten?</string>
+</dict>
+</plist>

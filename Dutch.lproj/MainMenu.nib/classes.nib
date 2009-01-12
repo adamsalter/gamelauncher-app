@@ -1,0 +1,126 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {"" = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                advertiseLink = id; 
+                browseForApp = id; 
+                buyProfessionalLink = id; 
+                quitAllAndLaunch = id; 
+                showNagScreen = id; 
+                toggleAllProcesses = id; 
+            }; 
+            CLASS = GLController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                applicationListView = NSTableView; 
+                browseButton = NSButton; 
+                imageWell = NSImageView; 
+                launchAppName = NSTextField; 
+                mainWindow = NSWindow; 
+                quitAllAndLaunchButton = NSButton; 
+                toggleAllButton = NSButton; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                advertiseLink = id; 
+                browseForApp = id; 
+                buyProfessionalLink = id; 
+                quitAllAndLaunch = id; 
+                quitSelectedApp = id; 
+                toggleAllProcesses = id; 
+            }; 
+            CLASS = GLGUIController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                applicationListView = NSTableView; 
+                browseButton = NSButton; 
+                browseMenuItem = NSMenuItem; 
+                imageWell = NSImageView; 
+                launchAppName = NSTextField; 
+                launchMenuItem = NSMenuItem; 
+                mainWindow = NSWindow; 
+                progressIndicator = NSProgressIndicator; 
+                quitAllAndLaunchButton = NSButton; 
+                quitCurrentAppMenuItem = NSMenuItem; 
+                toggleAllButton = NSButton; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = GLImageView; LANGUAGE = ObjC; SUPERCLASS = NSImageView; }, 
+        {
+            ACTIONS = {
+                abortLaunchThread = id; 
+                cancelLaunch = id; 
+                continueWaiting = id; 
+                quitAllAndLaunchThread = id; 
+            }; 
+            CLASS = GLLauncher; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                applicationListView = NSTableView; 
+                mainWindow = NSWindow; 
+                progressIndicator = NSProgressIndicator; 
+                quitAllAndLaunchButton = NSButton; 
+                radioList = NSMatrix; 
+                slowLaunchSheet = NSWindow; 
+                slowLaunchSheetApplicationName = NSTextField; 
+                slowLaunchSheetIcon = NSImageView; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {cancelLaunch = id; continueWaiting = id; startRunLoop = id; }; 
+            CLASS = GLLauncherController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                mainWindow = NSWindow; 
+                radioList = NSMatrix; 
+                slowLaunchSheet = NSWindow; 
+                slowLaunchSheetApplicationName = NSTextField; 
+                slowLaunchSheetIcon = NSImageView; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {nagOKPressed = id; showNagScreen = id; }; 
+            CLASS = GLNagController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {nagStatusText = NSTextField; nagView = WebView; nagWindow = NSWindow; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                pauseAboutScroll = id; 
+                setAlwaysOnTopDuringLaunch = id; 
+                setComputerSpeed = id; 
+                showAboutTab = id; 
+                showLicenceTab = id; 
+                showOptionsTab = id; 
+            }; 
+            CLASS = GLPreferences; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                alwaysOnTopCheck = NSButton; 
+                appNameField = id; 
+                buyproField = id; 
+                copyrightField = id; 
+                creditsField = id; 
+                prefWin = NSWindow; 
+                speedSlider = NSSlider; 
+                tabView = NSTabView; 
+                versionField = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = NSWindow; LANGUAGE = ObjC; SUPERCLASS = NSResponder; }
+    ); 
+    IBVersion = 1; 
+}
