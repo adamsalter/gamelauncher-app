@@ -397,9 +397,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>666056A60F1B287500509677</string>
+				<string>666057110F1B2A7200509677</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>666056A70F1B287500509677</string>
+				<string>666057120F1B2A7200509677</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -516,7 +516,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>253438036.58337399</real>
+	<real>253438578.05254301</real>
 	<key>ToolbarDisplayMode</key>
 	<integer>2</integer>
 	<key>ToolbarIsVisible</key>
@@ -532,6 +532,7 @@
 	<key>WindowOrderList</key>
 	<array>
 		<string>/Users/adam/Desktop/GameLauncher/2STools/2STools.xcodeproj</string>
+		<string>66DD45C60F1B1C6A00E11F6F</string>
 	</array>
 	<key>WindowString</key>
 	<string>339 275 902 566 0 0 1440 878 </string>
@@ -615,7 +616,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>66DD45C60F1B1C6A00E11F6F</string>
-				<string>666055CE0F1B273800509677</string>
+				<string>666057130F1B2A7200509677</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -626,7 +627,7 @@
 			<key>WindowToolGUID</key>
 			<string>66DD45C60F1B1C6A00E11F6F</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
